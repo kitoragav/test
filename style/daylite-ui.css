@@ -1,0 +1,39 @@
+.daylite-btn {
+	display: inline-block;
+
+	border: 1px solid;
+	border-radius: 5px;
+
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+
+	padding: 16px 25px;
+
+	color: #a89574;
+
+	transition: all .3s ease;
+}
+
+
+.daylite-btn:hover {
+	background-color: #a89574;
+	color: #fff;
+	border: 1px solid #a89574;
+}
+
+.daylite-btn--red {
+	color: #a8747e;
+}
+
+.daylite-btn--red:hover {
+	background-color: #a8747e;
+	color: #fff;
+	border: 1px solid #a8747e;
+}
+
+.sub-purchase__buttons > a:not(last-child) {
+	margin-right: 5px;
+}
+
